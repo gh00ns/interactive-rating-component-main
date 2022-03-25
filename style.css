@@ -97,6 +97,19 @@ body {
   border-radius: 30px;
 }
 
+/* HOVER STATES */
+.container .btn__score:hover {
+  background-color: var(--Orange);
+  color: var(--White);
+  transition: 0.3s;
+}
+
+.container .btn__submit:hover {
+  background-color: var(--White);
+  color: var(--Orange);
+  transition: 0.3s;
+}
+
 /* ATTRIBUTIONS */
 .attribution {
   padding-top: 5px;
