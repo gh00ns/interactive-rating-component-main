@@ -24,6 +24,7 @@ function btnPressed(num_string) {
         // reset
         document.getElementById("btn__" + num_string).style.backgroundColor = "";
         document.getElementById("btn__" + num_string).style.color = "";  
+        num_string = "";
     }
 
     else if (activeBtn != num_string) {
