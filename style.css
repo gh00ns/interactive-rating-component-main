@@ -97,7 +97,7 @@ body {
   border-radius: 30px;
 }
 
-/* HOVER STATES */
+/* STATES */
 .container .btn__score:hover {
   background-color: var(--Orange);
   color: var(--White);
