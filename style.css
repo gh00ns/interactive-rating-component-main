@@ -40,8 +40,10 @@ body {
 .container {
   background-color: var(--Dark-Blue);
   height: 360px;
+  width: 100%;
   border-radius: 15px;
   padding: 20px;
+  display: block;
 }
 
 .container .img__star {
@@ -95,6 +97,38 @@ body {
   font-weight: 700;
   letter-spacing: 2px;
   border-radius: 30px;
+}
+
+.container__submitted {
+  background-color: var(--Dark-Blue);
+  height: 360px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 30px 20px 30px 20px;
+  display: none;
+  text-align: center;
+}
+
+.container__submitted .selection {
+  color: var(--Orange);
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  border: none;
+  background-color: var(--Dark-Grey);
+  padding: 8px 15px 8px 15px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.container__submitted h2 {
+  color: var(--White);
+  margin-bottom: 15px;
+}
+
+.container__submitted p {
+  color: var(--Medium-Grey);
+  line-height: 22px;
 }
 
 /* STATES */

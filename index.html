@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container" id="container">
     <img src="./images/icon-star.svg" class="img__star" alt="star">
     <h2>How did we do?</h2>
     <p>Please let us know how we did with your support request. All feedback is appreciated 
@@ -23,7 +23,14 @@
       <button class="btn__score" id="btn__4">4</button>
       <button class="btn__score" id="btn__5">5</button>
     </div>
-    <button class="btn__submit">SUBMIT</button>
+    <button class="btn__submit" id="btn__submit">SUBMIT</button>
+  </div>
+
+  <div class="container__submitted" id="container__submitted">
+    <img src="./images/illustration-thank-you.svg" alt="">
+    <button class="selection">You selected <span id="selected__rating">4</span> out of 5</button>
+    <h2>Thank you!</h2>
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
   </div>
   
   <div class="attribution">
